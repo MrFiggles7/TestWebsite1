@@ -1,0 +1,27 @@
+@keyframes bounceletter {
+  .1%{
+    transform: translateY(0rem);
+  }
+
+  20%{
+    transform: translateY(-.8rem);
+  }
+
+  40%{
+    transform: translateY(-1.2rem);
+  }
+
+  60%{
+    transform: translateY(-1.6rem);
+  }
+
+  80%{
+    transform: translateY(-2rem);
+    text-shadow: 0 .75rem .75rem rgba($color-black, .8);
+  }
+
+
+  100%{
+    transform: translateY(0);
+  }
+}

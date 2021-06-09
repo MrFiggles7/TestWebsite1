@@ -1,0 +1,69 @@
+.header{
+  position: fixed;
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)),
+          url("../../img/john-matychuk-gUK3lA3K7Yo-unsplash.jpg");
+  top: 0;
+  left: 0;
+
+  height: 100vh;
+  width: 100%;
+
+  background-position-x: -20rem;
+  background-position-y: -20rem;
+
+  &__text-box{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  a{
+    margin: 1rem 2rem;
+  }
+}
+
+.letter-animation{
+  padding: 0;
+  margin: 0 .6rem;
+  display: inline-block;
+  float: left;
+  transition: ease 1.4s;
+
+  &--e{
+    transform: translateY(-1rem) skewX(2deg);
+  }
+
+  &--q{
+    transform: translateY(.75rem) skewX(-5deg);
+  }
+
+  &--u{
+    transform: translateY(-.5rem) skewX(4deg);
+  }
+
+  &--i{
+    transform: translateY(.5rem) skewX(-1deg);
+  }
+
+  &--l{
+    transform: translateY(-1rem) skewX(3deg);
+  }
+
+  &--b{
+    transform: translateY(-.25rem) skewX(-3deg);
+  }
+
+  &--r{
+    transform: translateY(-1rem) skewX(4deg);
+  }
+
+  &--m{
+    transform: translateY(1rem) skewX(-3deg);
+  }
+
+
+}
+
+

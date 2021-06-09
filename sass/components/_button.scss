@@ -1,0 +1,27 @@
+.btn{
+  &,
+  &:link,
+  &:visited{
+    padding: 1.4rem 3rem;
+    text-decoration: none;
+    font-size: 2rem;
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: 0 .5rem .5rem rgba($color-yellow, .2);
+    transition: all .2s;
+  }
+
+  &:hover{
+    transform: translateY(-.2rem) scale(1.05);
+    box-shadow: 0 .25rem .25rem rgba($color-yellow, .2);
+    background-color: rgba($color-black, .4);
+  }
+  &--yellow{
+    border: 2px solid $color-yellow;
+    color: $color-yellow;
+  }
+
+  &--animated{
+
+  }
+}

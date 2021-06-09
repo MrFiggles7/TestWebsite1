@@ -1,0 +1,109 @@
+@keyframes bounceletter {
+  .1% {
+    transform: translateY(0rem); }
+  20% {
+    transform: translateY(-0.8rem); }
+  40% {
+    transform: translateY(-1.2rem); }
+  60% {
+    transform: translateY(-1.6rem); }
+  80% {
+    transform: translateY(-2rem);
+    text-shadow: 0 0.75rem 0.75rem rgba(0, 0, 0, 0.8); }
+  100% {
+    transform: translateY(0); } }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.heading-primary {
+  text-transform: uppercase;
+  color: white;
+  width: 100vw; }
+  .heading-primary--main {
+    display: inline-block;
+    font-size: 10rem;
+    font-weight: 100; }
+    .heading-primary--main::after {
+      content: "";
+      display: table;
+      clear: both; }
+    .heading-primary--main:hover .letter-animation {
+      transform: translateY(0) translateY(0) scale(1) skew(0); }
+  .heading-primary--sub {
+    display: block; }
+
+body {
+  font-family: "Palatino Linotype", sans-serif;
+  font-weight: 400;
+  padding: 3rem; }
+
+.btn, .btn:link, .btn:visited {
+  padding: 1.4rem 3rem;
+  text-decoration: none;
+  font-size: 2rem;
+  display: inline-block;
+  border-radius: 2px;
+  box-shadow: 0 0.5rem 0.5rem rgba(231, 196, 0, 0.2);
+  transition: all .2s; }
+.btn:hover {
+  transform: translateY(-0.2rem) scale(1.05);
+  box-shadow: 0 0.25rem 0.25rem rgba(231, 196, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4); }
+.btn--yellow {
+  border: 2px solid #E7C400;
+  color: #E7C400; }
+
+.header {
+  position: fixed;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/john-matychuk-gUK3lA3K7Yo-unsplash.jpg");
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-position-x: -20rem;
+  background-position-y: -20rem; }
+  .header__text-box {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  .header a {
+    margin: 1rem 2rem; }
+
+.letter-animation {
+  padding: 0;
+  margin: 0 .6rem;
+  display: inline-block;
+  float: left;
+  transition: ease 1.4s; }
+  .letter-animation--e {
+    transform: translateY(-1rem) skewX(2deg); }
+  .letter-animation--q {
+    transform: translateY(0.75rem) skewX(-5deg); }
+  .letter-animation--u {
+    transform: translateY(-0.5rem) skewX(4deg); }
+  .letter-animation--i {
+    transform: translateY(0.5rem) skewX(-1deg); }
+  .letter-animation--l {
+    transform: translateY(-1rem) skewX(3deg); }
+  .letter-animation--b {
+    transform: translateY(-0.25rem) skewX(-3deg); }
+  .letter-animation--r {
+    transform: translateY(-1rem) skewX(4deg); }
+  .letter-animation--m {
+    transform: translateY(1rem) skewX(-3deg); }
+
+/*# sourceMappingURL=main.css.map */
