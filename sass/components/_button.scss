@@ -16,6 +16,12 @@
     box-shadow: 0 .25rem .25rem rgba($color-yellow, .2);
     background-color: rgba($color-black, .4);
   }
+
+  &:active{
+    transform: translateY(0rem) scale(1.05);
+    box-shadow: 0 .25rem .25rem rgba($color-yellow, .6);
+    background-color: rgba($color-black, .6);
+  }
   &--yellow{
     border: 2px solid $color-yellow;
     color: $color-yellow;
